@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.greenhat.b_passer.Home"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/register"
+        android:text="Register/Check"
+        android:textSize="50dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="266dp"
+        android:background="@color/colorPrimary"
+        android:text="User Exist/
+no"
+        android:textColor="@color/colorAccent"
+        android:textSize="50dp"
+        android:textStyle="italic" />
+
+</LinearLayout>
